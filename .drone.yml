@@ -22,7 +22,7 @@ steps:
   image: curlimages/curl
   commands:
   - echo waiting the SMS server to start
-  - sleep 15
+  - sleep 45
   - curl http://Gateway_SMS_server:3000/outbound
 
 services:
