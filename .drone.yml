@@ -27,7 +27,7 @@ steps:
 
 services:
 - name: Gateway_SMS_server
-  image: ecointet/sms-server:0.3
+  image: diegokoala/sms-server:latest
   environment:
     DEST:
       from_secret: PHONE_NUMBER
